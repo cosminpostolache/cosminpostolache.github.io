@@ -1,1 +1,242 @@
-"Hello World" 
+<!DOCTYPE HTML>
+<html>
+<head><title>Cosmin Postolache</title>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+  integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+  crossorigin="anonymous"
+/>
+<link
+  href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+  rel="stylesheet"
+/>
+<link
+  href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+  rel="stylesheet"
+/>
+<link href="styles/style.css" rel="stylesheet" type="text/css">
+
+<script>
+var $current_page=this.location.pathname.replace(/^.*[\\\/]/, '')
+</script>
+
+<?php
+$current_page= substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+1);
+;
+  include ("navbar.php");
+  ?>
+
+  </head>
+<body>
+
+
+
+    <section id="welcome-section">
+<div id="titluri">
+  <h1> Cosmin Postolache </h1>
+  <br><br>
+  <h4> <a href="Compositions.php"> Composer </a> &  <a href="Performer.php"> Performer. </a></h4>
+
+</div><hr></hr>
+  </section>
+  <hr></hr>
+<section id="Music">
+
+  <h2 id="musicheader"> <a href="Compositions.php">Music </a></h2>
+
+
+
+
+        <div id="musiccarousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+  <li data-target="#musiccarousel" data-slide-to="0" ></li>
+  <li data-target="#musiccarousel" data-slide-to="1"></li>
+  <li data-target="#musiccarousel" data-slide-to="2" class="active"></li>
+
+</ol>
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+  <iframe src="https://www.youtube.com/embed/DMY8Mj11Vkk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div  id="carousel-caption">
+                  <h4> <a href="Otherprojects.php">Bolintin (2012-2016)</a></h4>
+                  <p> A fusion of spoken word poetry and contemporary music styles.</p>
+                </div>
+
+            </div>
+
+            <div class="carousel-item">
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/485842239&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"></div>
+
+                <div  id="carousel-caption">
+                  <h4> <a href="Soundtrackworks.php">Soundtrack music </a></h4>
+                  <p> Various cues and background music for video and podcasts. </p>
+
+                </div>
+            </div>
+            <div class="carousel-item">
+<iframe width="75%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1134346237&color=%23ff0000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/cosmin-postolache" title="Cosmin Postolache" target="_blank" style="color: #cccccc; text-decoration: none;">Cosmin Postolache</a> · <a href="https://soundcloud.com/cosmin-postolache/toat-lumea" title="Toată lumea" target="_blank" style="color: #cccccc; text-decoration: none;">Toată lumea</a></div>
+
+                  <div  id="carousel-caption">
+                <h4> <a href="Compositions.php">Compositions</a></h4>
+                <p>  Original songs, sketches and larger works.
+                 </p>
+               </div>
+            </div>
+
+
+          </div>
+
+          <a class="carousel-control-prev" href="#musiccarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#musiccarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+</div>
+  <hr></hr>
+</section>
+<section id="Production">
+    <h2 style="color:white;"> <a style="color:white;" href="Revoluția Copiilor.php">Audio production </h2>
+
+  <div z-index:99999 id="productioncarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+<li data-target="#productioncarousel" data-slide-to="0"></li>
+<li data-target="#productioncarousel" data-slide-to="1"></li>
+<li data-target="#productioncarousel" data-slide-to="2"></li>
+<li data-target="#productioncarousel" data-slide-to="3" class="active"></li>
+</ol>
+<div class="carousel-inner">
+  <div class="carousel-item">
+<iframe src="https://anchor.fm/victorilie/embed/episodes/De-ce-dm-pag--Episodul-1-Pacientul-e3v2e6/a-aegaa0" height="102px" width="200px" frameborder="0" scrolling="no"></iframe>
+      <div  id="carousel-caption">
+        <h4> <a href="De ce dăm șpagă.php">De ce dăm șpagă?</a></h4>
+        <p> Care e diferența dintre șpagă și atenție? </p>
+      </div>
+  </div>
+  <div class="carousel-item active">
+<iframe  scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/730736878&color=%23ff0000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"></div>
+      <div  id="carousel-caption">
+        <h4> <a href="Revoluția copiilor.php">Revoluția copiilor</a></h4>
+        <p style="margin-bottom:3rem;">Documentar audio despre Revoluția din 1989. </p>
+      </div>
+  </div>
+  <div class="carousel-item">
+<iframe scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/381027689&color=%23ff0000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/scena-9" title="Scena 9" target="_blank" style="color: #cccccc; text-decoration: none;"></a> · <a href="https://soundcloud.com/scena-9/sampania-cehov-audio" title="„Șampania” de Anton Pavlovici Cehov" target="_blank" style="color: #cccccc; text-decoration: none;"></a></div>      <div  id="carousel-caption">
+        <h4> <a href="Scena9.php">Scena9</a></h4>
+        <p> Podcasts and radio dramas.</p>
+      </div>
+  </div>
+  <div class="carousel-item">
+    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1114734193&color=%23ff0000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/scena-9" title="Scena 9" target="_blank" style="color: #cccccc; text-decoration: none;">Scena 9</a> · <a href="https://soundcloud.com/scena-9/natural" title="Natural" target="_blank" style="color: #cccccc; text-decoration: none;">Natural</a></div>
+        <h4> <a href="Natural.php">Natural</a></h4>
+        <p> O călătorie audio prin rezervații din România.</p>
+      </div>
+  </div>
+
+
+<a class="carousel-control-prev" href="#productioncarousel" role="button" data-slide="prev">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#productioncarousel" role="button" data-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+</section>
+
+
+
+
+  <hr></hr>
+  <section id="Bio"><h2>Performer</h2>
+      <div id="Biocarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+    <li data-target="#Biocarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#Biocarousel" data-slide-to="1"></li>
+    <li data-target="#Biocarousel" data-slide-to="2"></li>
+
+    </ol>
+    <div class="carousel-inner">
+
+      <div class="carousel-item">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/lSIyjkb4gcI?start=55" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div  id="carousel-caption">
+            <h4> <a href="Performer.php">Hello Yellow</a></h4>
+            <p>Keys, Backing Vox </p>
+          </div>
+      </div>
+      <div class="carousel-item active">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4808WhzPDOU?start=49" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+          <div  id="carousel-caption">
+            <h4> <a href="Performer.php">We singing colors</a></h4>
+            <p style="margin-bottom:3rem;">2017 - 2018 : Keyboards</p>
+          </div>
+      </div>
+      <div class="carousel-item">
+
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/944383435&color=%23ff0000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"></div>
+            <h4> <a href="Music.php">Balkan Taksim</a></h4>
+            <p>  2016 – 2018 : Keys, Arranging </p>
+          </div>
+      </div>
+
+
+      <a class="carousel-control-prev" href="#Biocarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#Biocarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+    </div>
+  </section>
+
+
+
+
+    <hr></hr>
+  <section id="Contact"><h2>Contact</h2>
+
+
+   <div id="mafut" class="contact-links">
+
+    <a
+      href="https://www.facebook.com/cosmin.postolache"
+      target="_blank"
+      class="btn contact-details"
+      ><i class="fab fa-facebook-square"></i> Facebook</a
+    > <a href="mailto:post.cosmin@gmail.com" class="btn contact-details"
+      ><i class="fas fa-at"></i>Email</a
+    >
+    </div>
+
+  </section>
+
+
+
+</script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+    </body>
+
+
+</html>
