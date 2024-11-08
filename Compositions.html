@@ -26,10 +26,18 @@
 
   </head>
 <body>
-  <?php
-  $current_page= substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+1);
-  include ("navbar.php");
-  ?>
+ <!--Navigation bar-->
+<div id="nav-placeholder">
+
+</div>
+
+<script>
+$.get("navbar.html", function(data){
+    $("#nav-placeholder").replaceWith(data);
+});
+</script>
+  
+<!--end of Navigation bar-->
 
       <section id="Compositions" style="background-color:black; ">
         <h2 id="musicheader" style="color:white;" > Compositions </h2>
