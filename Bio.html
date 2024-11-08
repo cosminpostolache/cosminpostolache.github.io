@@ -24,12 +24,18 @@
   rel="stylesheet"
 />
 <link href="styles/style.css" rel="stylesheet" type="text/css">
-<?php
-$current_page= substr($_SERVER["SCRIPT_NAME"],strrpos($_SERVER["SCRIPT_NAME"],"/")+1);
+  <!--Navigation bar-->
+<div id="nav-placeholder">
 
-    include ("navbar.php");
-?>
+</div>
 
+<script>
+$.get("navbar.html", function(data){
+    $("#nav-placeholder").replaceWith(data);
+});
+</script>
+  
+<!--end of Navigation bar-->
   </head>
   <body>
 
