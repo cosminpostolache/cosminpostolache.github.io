@@ -133,7 +133,7 @@ display: flex;
 hr {background-color:white; color:white;}
 #cloud{display:inline; width:100%;height: 100%; position:relative; z-index:-2;  }
 
-#musiclinks iframe{padding:5rem; font-style:italic;}
+#musiclinks iframe{padding:5rem; }
 
 #musicheader{ color:black;}
 #Compositions{background-color:#98cee3; text-align: center; margin:auto;}
@@ -149,7 +149,7 @@ align-items: center;*/
   	#73b2cb; width:100%; height:100vh;
     padding-right:0;padding-left:0; color:black;}
     #Music {color: black;}
-#Production { width:100vw; height:100vh; font-style:italic;}
+#Production { width:100vw; height:100vh; }
 #Production h2,h3{font-style:normal;}
 #Production iframe{padding-top:6rem;}
 body h2 {font-size:2.8 rem; align-items: center; margin:auto;}
