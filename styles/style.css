@@ -55,6 +55,8 @@ body {
   background-color:black;
   color:black; 10:35 09.05.2020
 max-width:100%;
+	a {color: teal;}
+a:hover{background-color:gray;}
 
 
 }
