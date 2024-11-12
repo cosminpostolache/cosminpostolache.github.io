@@ -175,9 +175,7 @@ Section p{padding:3rem;}
 #Bio{color:blac; background-color:#73b2cb; FONT-SIZE:40%;}
 #Bio a{font-size:3rem; text-decoration: underline;}
 #Bio h3{padding-top:3rem;text-align:center;}
-#Bio a:hover{display:inline-block; transform: translateY(8px);
-  background-color:gray; transition: transform 0.3s ease-out}
-  #Bio p{text-align:center;}
+#Bio p{text-align:center;}
 #Contact{color:white;}
 
 #Contact h2{ }
