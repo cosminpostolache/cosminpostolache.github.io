@@ -79,7 +79,6 @@ Section h3{font-size:2.8rem; text-align:center;}
 body h4{font-size:3rem; font-style: normal;}
 body div a{color:inherit;;}
 a {text-decoration: none; color: black;}
-a:hover{background-color:gray;}
 
 nav { margin:auto;width:100%; background-color:	#98cee3 ;
   text-decoration:none;
