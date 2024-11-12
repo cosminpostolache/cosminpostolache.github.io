@@ -57,9 +57,13 @@ body {
 max-width:100%;
 	
 a:hover{background-color:gray;}
-
-
 }
+#seealso {
+	font-size: 3rem; 
+	text-align:right; 
+	color: white; 
+	padding-bottom: 0; 
+	padding-right: 0;}
  *{}
 h1,
 h2 {
