@@ -74,11 +74,12 @@ h1 {
 h2 {padding:2rem;
   font-size: 4.2rem;
 }
-h3{font-size: 3rem;a:hover{background-color:gray;}
+h3{font-size: 3rem;}
 Section h3{font-size:2.8rem; text-align:center;}
 body h4{font-size:3rem; font-style: normal;}
 body div a{color:inherit;;}
 a {text-decoration: none; color: black;}
+a:hover{background-color:gray; text-decoration: none;}
 
 nav { margin:auto;width:100%; background-color:	#98cee3 ;
   text-decoration:none;
