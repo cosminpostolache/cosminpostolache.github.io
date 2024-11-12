@@ -55,7 +55,7 @@ body {
   background-color:black;
   color:black; 10:35 09.05.2020
 max-width:100%;
-	a {color: teal;}
+	
 a:hover{background-color:gray;}
 
 
@@ -174,7 +174,6 @@ Section p{padding:3rem;}
 #Balkan{background-color: #73b2cb;}
 
 #Bio{color:blac; background-color:#73b2cb; FONT-SIZE:40%;}
-#Bio a{text-decoration: underline;}
 #Bio h3{padding-top:3rem;text-align:center;}
 #Bio p{text-align:center;}
 #Contact{color:white;}
